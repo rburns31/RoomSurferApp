@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:clickable="true"
+        android:src="@drawable/floor3map"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/floorMap" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="16dp"
+        android:id="@+id/room1002"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="26dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:id="@+id/room1018"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="88dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:id="@+id/room1025"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="23dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:id="@+id/room1026"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="48dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:id="@+id/room1030"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="22dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        android:id="@+id/room1031"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="22dp"
+        android:background="#64eeff43"
+        android:visibility="invisible"
+        android:contentDescription="@string/someRoomOnMap" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/userLocation"
+        android:src="@android:drawable/ic_menu_mylocation"
+        android:visibility="invisible"
+        android:contentDescription="@string/userLocation" />
+</RelativeLayout>

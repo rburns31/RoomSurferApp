@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EntryDetailsActivity"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/room"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp" />
+
+        <TextView
+            android:id="@+id/roomTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/floor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp" />
+
+        <TextView
+            android:id="@+id/floorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/capacity"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp" />
+
+        <TextView
+            android:id="@+id/capacityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/videoConf"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp" />
+
+        <TextView
+            android:id="@+id/videoConfTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:orientation="horizontal"
+        android:layout_weight=".15"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/projector"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp" />
+
+        <TextView
+            android:id="@+id/projectorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:text="@string/showOnMap"
+        android:id="@+id/showRoomOnMapButton"
+        android:layout_weight=".15"
+        android:onClick="onShowOnMap" />
+
+</LinearLayout>

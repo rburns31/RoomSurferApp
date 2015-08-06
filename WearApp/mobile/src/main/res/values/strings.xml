@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RoomSurfer</string>
+    <string name="floor">Floor</string>
+    <string name="room">Room</string>
+    <string name="capacity">Capacity</string>
+    <string name="filterRooms">Filter Rooms</string>
+    <string name="applyFilter">Apply Filter</string>
+    <string name="minCapacity">Minimum Capacity</string>
+    <string name="floorMap">Floor Map</string>
+    <string name="someRoomOnMap">Some Room On The Map</string>
+    <string name="userLocation">User Location</string>
+    <string name="videoConf">Video Conferencing</string>
+    <string name="projector">Projector</string>
+    <string name="zero">0</string>
+    <string name="showOnMap">Show On Map</string>
+    <string name="roomDetails">Room Details</string>
+
+    <string-array name="floors_array">
+        <item>Any</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

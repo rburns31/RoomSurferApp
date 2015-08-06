@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WearApp</string>
+
+    <string-array name="floors_array">
+        <item>N/A</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="capacities_array">
+        <item>N/A</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+    </string-array>
+</resources>
